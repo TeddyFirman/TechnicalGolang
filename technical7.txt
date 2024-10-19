@@ -1,0 +1,15 @@
+1. saya akan menggunakan cara yang sama seperti pada technical test soal nomer 3 untuk method GET
+
+2. Sesuai dengan pengalaman belajar saya, saya akan mengecek dan melihat penggunaan goroutine terlebih dahulu, karena biasanya penggunaan goroutine berlebih bisa menimbulkan masalah seperti ini, kemudian mengurangi alokasi memori yang berlebih dengan memperbaiki logika alokasi (memori) yang tidak perlu, bisa juga menggunakan benchmark bawaan golang untuk mengecek, mungkin masih banyak cara yang bisa dilakukan, tetapi hal-hal diatas adalah pengalaman belajar saya dan saya masih merasa ingin belajar lebih banyak lagi🙏
+
+3. Hal yang akan saya lakukan ialah:
+- Pertama, ialah membuat go module dengan mengketik
+go mod init <nama_module> (biasanya sesuai dengan nama folder)
+
+
+- Kedua, memulai dengan database yang sederhana dengan menggunakan mysql 
+go get -u github.com/go-sql-driver/mysql
+
+- Ketiga, setelah mensetting dan mengimport module mysql, saya akan menggunakan net/http untuk melakukan request dan response dalam manajemen API, sekaligus untuk status code
+
+- Ketiga, baru membuat API yang sesuai task =>  melakukan migrate, membuat domain(struct/model), membuat service(controller), unit testing (sebagai penutup)
